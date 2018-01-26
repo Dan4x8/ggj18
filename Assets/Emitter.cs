@@ -26,5 +26,5 @@ public class Emitter : MonoBehaviour {
     }
 }
 
-public enum EmitterState { Inactive, Push, Pull };
+public enum EmitterState { Inactive = 0, Push = -1, Pull = 1 };
 
