@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent (typeof(AudioSource))]
+[RequireComponent(typeof(CircleCollider2D))]
 public class Emitter : MonoBehaviour {
 
     private float _range;
