@@ -4,26 +4,51 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-	private List<Transform> _emitterCollection;
+	public float Speed = 1.0f;
 
-	private List<Transform> EmitterCollection
+	private List<Emitter> _emitterCollection;
+
+	private List<Emitter> EmitterCollection
 	{
 		get { return _emitterCollection; }
 	}
 
 	private void Start()
 	{
-		_emitterCollection = new List<Transform>();
+		_emitterCollection = new List<Emitter>();
 	}
 
-	public void RegisterEmitter(GameObject sender)
+	public void RegisterEmitter(Emitter sender)
 	{
-		if (!EmitterCollection.Contains(sender.transform))
-			EmitterCollection.Add(sender.transform);
+		if (!EmitterCollection.Contains(sender))
+			EmitterCollection.Add(sender);
 	}
 
-	public void UnregisterEmitter(GameObject sender)
+	public void UnregisterEmitter(Emitter sender)
 	{
-		EmitterCollection.Remove(sender.transform);
+		EmitterCollection.Remove(sender);
 	}
+
+	public void Move(float weight = 1f)
+	{
+		Vector3 target = Vector3.up * weight;
+		transform.position = Vector3.MoveTowards(transform.position,target,weight*Speed);
+	}
+
+	private Vector3 CalculateDirection()
+	{
+		return Vector3.zero;
+	}
+
+	private void FixedUpdate()
+	{
+		Move();
+	}
+
+	/*
+	public class Emitter
+	{
+
+	}
+	*/
 }
