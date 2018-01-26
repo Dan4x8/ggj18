@@ -24,16 +24,6 @@ public class Emitter : MonoBehaviour {
     {
         other.gameObject.GetComponent<Player>().UnregisterEmitter(this);
     }
-
-    private void OnCollisionEnter(Collision c)
-    {
-
-    }
-
-    private void OnCollisionExit(Collision c)
-    {
-
-    }
 }
 
 public enum EmitterState { Inactive, Push, Pull };
