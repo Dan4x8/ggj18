@@ -5,14 +5,13 @@ using UnityEngine;
 [RequireComponent (typeof(AudioSource))]
 public class Emitter : MonoBehaviour {
 
-    public AudioSource AudioSource;
     private float _range;
 
     public EmitterState State = EmitterState.Inactive;
 
 	// Use this for initialization
 	void Start () {
-        _range = AudioSource.maxDistance;
+        _range = GetComponent<AudioSource>().maxDistance;
 	}
 
 
