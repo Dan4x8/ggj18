@@ -29,14 +29,27 @@ public class Player : MonoBehaviour
 		EmitterCollection.Remove(sender);
 	}
 
-	public void Move(float weight = 1f)
+	public void Move()
 	{
-		Vector3 target = Vector3.up * weight;
-		transform.position = Vector3.MoveTowards(transform.position,target,weight*Speed);
+		Vector3 target = CalculateDirection().Multiply(Speed);
+		transform.position = Vector3.MoveTowards(transform.position,transform.position+target,Speed);
 	}
 
 	private Vector3 CalculateDirection()
 	{
+		var r = Vector3.zero;
+
+		foreach(var emitter in EmitterCollection)
+		{
+			if (!((emitter.State == EmitterState.Push) || (emitter.State == EmitterState.Pull)))
+				continue;
+
+			var dx = (emitter.transform.position - transform.position);
+			r += (dx / dx.normalized.sqrMagnitude).Multiply((int)emitter.State);
+		}
+
+		if(r != Vector3.zero)
+			return (r / r.normalized.sqrMagnitude);
 		return Vector3.zero;
 	}
 
@@ -44,11 +57,17 @@ public class Player : MonoBehaviour
 	{
 		Move();
 	}
+}
 
-	/*
-	public class Emitter
+static public class VectorExtensions
+{
+	static public Vector3 Multiply(this Vector3 v, float multiplicator)
 	{
-
+		return new Vector3(v.x * multiplicator, v.y * multiplicator, v.z * multiplicator);
 	}
-	*/
+
+	static public Vector2 Multiply(this Vector2 v, float multiplicator)
+	{
+		return new Vector2(v.x * multiplicator, v.y * multiplicator);
+	}
 }
