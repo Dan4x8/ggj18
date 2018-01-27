@@ -138,7 +138,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 140527658}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &140527660
 Behaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 1802790407}
   - component: {fileID: 1802790410}
   - component: {fileID: 1802790411}
+  - component: {fileID: 1802790412}
   m_Layer: 0
   m_Name: New Sprite
   m_TagString: Untagged
@@ -335,6 +336,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!81 &1802790412
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1802790406}
+  m_Enabled: 1
 --- !u!1 &2006245194
 GameObject:
   m_ObjectHideFlags: 0
