@@ -2,15 +2,9 @@
 
 [RequireComponent (typeof(AudioSource))]
 [RequireComponent(typeof(CircleCollider2D))]
-public class Emitter : MonoBehaviour {
-
-    private float _range;
-
+public class Emitter : MonoBehaviour
+{
     public EmitterState State = EmitterState.Inactive;
-	
-	void Start () {
-        _range = GetComponent<AudioSource>().maxDistance;
-	}
 
     public void ChangeState(EmitterState s)
     {

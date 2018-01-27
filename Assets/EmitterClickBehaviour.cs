@@ -17,8 +17,3 @@ public class EmitterClickBehaviour : ClickBehaviour
 		return (EmitterState)r;
 	}
 }
-
-public class ClickBehaviour : MonoBehaviour
-{
-	public virtual void Click() { }
-}
