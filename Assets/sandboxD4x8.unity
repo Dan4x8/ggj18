@@ -138,7 +138,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 140527658}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &140527660
 Behaviour:
   m_ObjectHideFlags: 0
@@ -366,7 +366,7 @@ Prefab:
     - target: {fileID: 81255099064553794, guid: 814db487e40a63a49b97dfe0ad92ff2c,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 814db487e40a63a49b97dfe0ad92ff2c, type: 2}
