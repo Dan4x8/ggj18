@@ -103,6 +103,8 @@ MonoBehaviour:
   - AudioClip: {fileID: 8300000, guid: ece6f12f6c435b34e9f00ce517202534, type: 3}
     ActionState: 1
   Speed: 0.05
+  VisualizerTemplate: {fileID: 120929718099145616, guid: 03a58ff338e30884491bddc014037bc8,
+    type: 2}
 --- !u!212 &212808919737321912
 SpriteRenderer:
   m_ObjectHideFlags: 1
