@@ -209,18 +209,13 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: RadioChannels.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4120202188624922, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.43
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4120202188624922, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4120202188624922, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
       propertyPath: m_LocalPosition.z
@@ -245,46 +240,6 @@ Prefab:
     - target: {fileID: 4120202188624922, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: State
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: Test
-      value: 2.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: RadioChannels.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: fd273a31590d7654bbbb16ee8812c262, type: 3}
-    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: RadioChannels.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: ece6f12f6c435b34e9f00ce517202534, type: 3}
-    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: RadioChannels.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 874e07c1787bd6342b796b9ba448cba6, type: 3}
-    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: CurrentKey
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 82076749675267552, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: MaxDistance
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 58001558938693736, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
-        type: 2}
-      propertyPath: m_Radius
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
