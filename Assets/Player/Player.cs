@@ -87,11 +87,12 @@ public class Player : MonoBehaviour
 		}
 		else
 		{
-			line.startColor = Color.green;
-			line.endColor = Color.green;
+			var dgreen = new Color(0x00, 0x3E, 0x1A, 0xFF);
+			line.startColor = dgreen;
+			line.endColor = dgreen;
 		}
 		line.SetPositions(new Vector3[] { emitter.transform.position, transform.position });
-		if(!line.gameObject.active)
+		if(!line.gameObject.activeSelf)
 		{
 			line.gameObject.SetActive(true);
 		}
