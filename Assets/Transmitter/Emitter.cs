@@ -13,8 +13,6 @@ public class Emitter : MonoBehaviour
 
 	public void ChangeState()
     {
-		var ctrl = FindObjectOfType<Controller>();
-
 		var clip = RadioChannels.Cycle(1, CurrentKey);
 		CurrentKey = RadioChannels.IndexOf(clip);
 		
