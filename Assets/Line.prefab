@@ -76,10 +76,10 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 5, y: 5, z: 1}
+  - {x: 1, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 2
-    widthMultiplier: 1
+    widthMultiplier: 0.03
     widthCurve:
       serializedVersion: 2
       m_Curve:

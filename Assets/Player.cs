@@ -55,7 +55,10 @@ public class Player : MonoBehaviour
 			var clip = emitter.RadioChannels[channel];
 
 			var dx = (emitter.transform.position - transform.position);
-			r += (dx / dx.normalized.sqrMagnitude).Multiply((int)AudioClipBehaviourMatching.Find(p=> p.AudioClip == clip).ActionState);
+			var astate = AudioClipBehaviourMatching.Find(p => p.AudioClip == clip).ActionState;
+			r += (dx / dx.normalized.sqrMagnitude).Multiply((int)astate);
+
+			VisualizeAction(astate);
 		}
 
 		if(r != Vector3.zero)
@@ -65,13 +68,12 @@ public class Player : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		VisualizeAction();
 		Move();
 	}
 
 	public LineRenderer VisualizerTemplate;
 
-	private void VisualizeAction()
+	private void VisualizeAction(ActionState state)
 	{
 		for(int i = 0; i < EmitterCollection.Count; i++)
 		{
@@ -79,7 +81,17 @@ public class Player : MonoBehaviour
 				continue;
 
 			var line = _visualizerCollection[EmitterCollection[i]];
-			line.SetPositions(new Vector3[] { EmitterCollection[i].transform.position, transform.position });
+			if (state == ActionState.Push)
+			{
+				line.startColor = Color.red;
+				line.endColor = Color.red;
+			}
+			else
+			{
+				line.startColor = Color.green;
+				line.endColor = Color.green;
+			}
+				line.SetPositions(new Vector3[] { EmitterCollection[i].transform.position, transform.position });
 		}
 	}
 
