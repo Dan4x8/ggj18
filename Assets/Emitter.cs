@@ -1,9 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 [RequireComponent (typeof(AudioSource))]
 [RequireComponent(typeof(CircleCollider2D))]
 public class Emitter : MonoBehaviour
 {
+	public List<AudioClip> RadioChannels;
+	public int CurrentKey = 0;
+
     public EmitterState State = EmitterState.Inactive;
 
     public void ChangeState(EmitterState s)
@@ -29,4 +33,3 @@ public class Emitter : MonoBehaviour
 }
 
 public enum EmitterState { Inactive = 0, Push = -1, Pull = 1 };
-
