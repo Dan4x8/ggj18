@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
 		transform.position = Vector3.MoveTowards(transform.position,transform.position+target,Speed);
 	}
 
-	private Vector3 CalculateDirection()
+	public Vector3 CalculateDirection()
 	{
 		var r = Vector3.zero;
 		

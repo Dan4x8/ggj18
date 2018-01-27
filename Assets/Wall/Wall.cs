@@ -15,4 +15,14 @@ public class Wall : MonoBehaviour
 			Gizmos.DrawCube(transform.position, Vector3.one);
 		}
 	}
+
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		//Destroy(collision.otherCollider.gameObject);
+		//return;
+
+		var p = collision.otherCollider.GetComponent<Player>();
+		var off = p.CalculateDirection()*-1f;
+		p.transform.position += off;
+	}
 }
