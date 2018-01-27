@@ -57,7 +57,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1468435330333018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -6.43, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4997734139943394}
@@ -111,7 +111,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 16
 --- !u!58 &58019203875188488
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -161,7 +161,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fd273a31590d7654bbbb16ee8812c262, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0a972cb208ec6c34ba9b3351cf0ba26f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -172,7 +172,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 0.5
-  MaxDistance: 3
+  MaxDistance: 16
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -262,10 +262,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RadioChannels:
-  - {fileID: 8300000, guid: fd273a31590d7654bbbb16ee8812c262, type: 3}
-  - {fileID: 8300000, guid: ece6f12f6c435b34e9f00ce517202534, type: 3}
+  - {fileID: 8300000, guid: 4a8f8c079ec8ce647a583e2f36df6539, type: 3}
+  - {fileID: 8300000, guid: 54ccacc397e11ef47ae20d433e1c3f63, type: 3}
   CurrentKey: 1
-  State: 255
+  State: 1
 --- !u!114 &114447651652060076
 MonoBehaviour:
   m_ObjectHideFlags: 1
