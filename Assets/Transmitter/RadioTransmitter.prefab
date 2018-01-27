@@ -41,8 +41,9 @@ GameObject:
   - component: {fileID: 4997734139943394}
   - component: {fileID: 114447651652060076}
   - component: {fileID: 212589109270659346}
-  - component: {fileID: 114152759137852400}
   - component: {fileID: 58743088011255066}
+  - component: {fileID: 114748094334457498}
+  - component: {fileID: 95716357834821642}
   m_Layer: 9
   m_Name: ClickArea
   m_TagString: Untagged
@@ -222,24 +223,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114152759137852400
-MonoBehaviour:
+--- !u!95 &95716357834821642
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1512698370653644}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 779f5e1862559894c930e38a915186bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RandomRotation: 1
-  SpriteCollection:
-  - {fileID: 21300000, guid: 6a53976fc6586854cb9acdfd53062dff, type: 3}
-  - {fileID: 21300000, guid: 2d03d49e65591c74299d52ccf1c24c89, type: 3}
-  - {fileID: 21300000, guid: 466913693f2f01f45a6579f0534407fd, type: 3}
-  - {fileID: 21300000, guid: 2206f47c7b8da3e4590049da049f8972, type: 3}
-  - {fileID: 21300000, guid: 48d30932a48c5a448aae42336f840383, type: 3}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33efcea03f77f444e865722d64bbb1b0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114201477034195884
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -267,6 +267,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc78fcade719e1478fec8c605ddf58e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114748094334457498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512698370653644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478d5ffe4227a9242878164dd7656a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationCollection:
+  - {fileID: 7400000, guid: d5dd56d097af0d44fb48e2659006d299, type: 2}
+  - {fileID: 7400000, guid: 52f38487e9cac5e46910b8e9d58608f7, type: 2}
+  - {fileID: 7400000, guid: 84a1de9ac5115be4f830ec66ea4ecdb6, type: 2}
+  - {fileID: 7400000, guid: ef4dceedbc8f2c748a4f25a81f9666c9, type: 2}
+  RandomRotation: 1
 --- !u!212 &212589109270659346
 SpriteRenderer:
   m_ObjectHideFlags: 1
