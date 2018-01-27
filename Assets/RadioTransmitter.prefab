@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 82076749675267552}
   - component: {fileID: 50461506708804540}
   - component: {fileID: 58019203875188488}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RadioTransmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}

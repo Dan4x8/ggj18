@@ -19,10 +19,13 @@ public class Controller : MonoBehaviour {
             Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
 
             RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero, Mathf.Infinity, (1 <<9));
-            if (hit.collider != null)
+
+
+
+			if (hit.collider != null)
             {
                 Debug.Log(hit.transform.name);
-                hit.collider.GetComponent<ClickBehavior>().Click();
+                hit.collider.GetComponent<ClickBehaviour>().Click();
             }
         }
 	}
