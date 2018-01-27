@@ -15,6 +15,11 @@ public class Emitter : MonoBehaviour {
         _range = GetComponent<AudioSource>().maxDistance;
 	}
 
+    public void ChangeState(EmitterState s)
+    {
+        State = s;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         other.gameObject.GetComponent<Player>().RegisterEmitter(this);
@@ -24,11 +29,6 @@ public class Emitter : MonoBehaviour {
     {
         other.gameObject.GetComponent<Player>().UnregisterEmitter(this);
     }
-
-	private void OnCollisionEnter2D(Collision2D collision)
-	{
-		Debug.Log("COLLIDE!");
-	}
 }
 
 public enum EmitterState { Inactive = 0, Push = -1, Pull = 1 };
