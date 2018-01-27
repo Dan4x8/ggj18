@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: 7e767d3a8ab090c4a9efe1ec67245184
+timeCreated: 1517078414
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: City-Elemente-IN_2380x2380_0
+    21300002: City-Elemente-IN_2380x2380_1
+    21300004: City-Elemente-IN_2380x2380_2
+    21300006: City-Elemente-IN_2380x2380_3
+    21300008: City-Elemente-IN_2380x2380_4
+    21300010: City-Elemente-IN_2380x2380_5
+    21300012: City-Elemente-IN_2380x2380_6
+    21300014: City-Elemente-IN_2380x2380_7
+    21300016: City-Elemente-IN_2380x2380_8
+    21300018: City-Elemente-IN_2380x2380_9
+    21300020: City-Elemente-IN_2380x2380_10
+    21300022: City-Elemente-IN_2380x2380_11
+    21300024: City-Elemente-IN_2380x2380_12
+    21300026: City-Elemente-IN_2380x2380_13
+    21300028: City-Elemente-IN_2380x2380_14
+    21300030: City-Elemente-IN_2380x2380_15
+    21300032: City-Elemente-IN_2380x2380_16
+    21300034: City-Elemente-IN_2380x2380_17
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 873
+        width: 236
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -145.95116, y: 195.00392}
+        - {x: -145.95116, y: -204.7617}
+        - {x: 6.826294, y: -204.76172}
+        - {x: -0.9102783, y: 191.83606}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_2
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 149
+        width: 480
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -231.80074, y: 147.83789}
+        - {x: -239.9355, y: -191.49803}
+        - {x: 240, y: -191.49803}
+        - {x: 240, y: 144.35156}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3
+        width: 425
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -212.42772, y: 214.5039}
+        - {x: -212.42772, y: -271.2578}
+        - {x: 212.5, y: -271.2578}
+        - {x: 212.5, y: 216.82812}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1288
+        width: 376
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 155.9453, y: 205}
+        - {x: -188, y: 205}
+        - {x: -188, y: -205}
+        - {x: 152.2717, y: -205}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1797
+        width: 593
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -296.5, y: 202}
+        - {x: -296.5, y: -201.82812}
+        - {x: 292.93115, y: -201.24341}
+        - {x: 296.5, y: 202}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_6
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1854
+        width: 281
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -140.3467, y: 184.5}
+        - {x: -140.3467, y: -143.66606}
+        - {x: 140.5, y: -141.34184}
+        - {x: 140.5, y: 184.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_7
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1874
+        width: 306
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -152.7793, y: 200.5}
+        - {x: -152.7793, y: -180.60942}
+        - {x: 153, y: -180.60942}
+        - {x: 153, y: 200.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_8
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1851
+        width: 280
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 140, y: 190.5}
+        - {x: -139.79301, y: 190.5}
+        - {x: -139.79301, y: -143.76068}
+        - {x: 140, y: -142.59857}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_9
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1802
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -162, y: 161}
+        - {x: -162, y: -65.5098}
+        - {x: 4.0289307, y: -67.87842}
+        - {x: 1.4570343, y: -160.80276}
+        - {x: 162, y: -160.80276}
+        - {x: 162, y: 161}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_10
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1540
+        width: 527
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -217.8789, y: 130}
+        - {x: -221.36523, y: -129.95113}
+        - {x: 263.5, y: -129.95113}
+        - {x: 263.5, y: 130}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_11
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1252
+        width: 514
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -218.94626, y: 140}
+        - {x: -218.94626, y: -140}
+        - {x: 257, y: -140}
+        - {x: 257, y: 140}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_0
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 974
+        width: 507
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -211.74406, y: 134.5}
+        - {x: -212.90617, y: -134.5}
+        - {x: 253.5, y: -134.5}
+        - {x: 253.5, y: 134.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_12
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 675
+        width: 263
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -41.943325, y: 144.5}
+        - {x: -41.943325, y: -74.560555}
+        - {x: 33.593784, y: -144.28711}
+        - {x: 131.5, y: -144.28711}
+        - {x: 131.5, y: 144.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_13
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 470
+        width: 259
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -126, y: 46}
+        - {x: -126, y: -46}
+        - {x: 126, y: -46}
+        - {x: 126, y: 46}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_14
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 339
+        width: 219
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -109.5, y: 54.18921}
+        - {x: -109.5, y: -89.818344}
+        - {x: 109.5, y: -89.818344}
+        - {x: 109.5, y: 57.769547}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 303
+        width: 222
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -111, y: 131.5}
+        - {x: -111, y: -131.5}
+        - {x: 111, y: -131.5}
+        - {x: 106.953125, y: 131.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 17
+        width: 271
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 135.5, y: 215.70917}
+        - {x: -133.8927, y: 208.75378}
+        - {x: -135.06053, y: -259.5}
+        - {x: 135.5, y: -259.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_17
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 596
+        width: 214
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -106.86035, y: 139}
+        - {x: -106.86035, y: -139}
+        - {x: 88.37402, y: -139}
+        - {x: 88.37402, y: 139}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
