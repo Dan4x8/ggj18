@@ -23,15 +23,15 @@ public class Player : MonoBehaviour
 	{
 		if (!EmitterCollection.Contains(sender))
 			EmitterCollection.Add(sender);
-		if (!_visualizerCollection.ContainsKey(sender))
-			_visualizerCollection.Add(sender, Instantiate(VisualizerTemplate));
+		if (!_visualizerCollection.ContainsKey(sender.GetInstanceID()))
+			_visualizerCollection.Add(sender.GetInstanceID(), Instantiate(VisualizerTemplate));
 	}
 
 	public void UnregisterEmitter(Emitter sender)
 	{
 		EmitterCollection.Remove(sender);
-		var clr = _visualizerCollection[sender].gameObject;
-		_visualizerCollection.Remove(sender);
+		var clr = _visualizerCollection[sender.GetInstanceID()].gameObject;
+		_visualizerCollection.Remove(sender.GetInstanceID());
 		Destroy(clr);
 	}
 
@@ -45,9 +45,9 @@ public class Player : MonoBehaviour
 	{
 		var r = Vector3.zero;
 		
-
-		foreach (var emitter in EmitterCollection)
+		for(int i = 0; i< EmitterCollection.Count;i++)
 		{
+			var emitter = EmitterCollection[i] as Emitter;
 			if (emitter.State == EmitterState.Inactive)
 				continue;
 
@@ -77,10 +77,11 @@ public class Player : MonoBehaviour
 	{
 		for(int i = 0; i < EmitterCollection.Count; i++)
 		{
-			if (EmitterCollection[i].State == EmitterState.Inactive)
+			var emitter = EmitterCollection[i] as Emitter;
+			if (emitter.State == EmitterState.Inactive)
 				continue;
 
-			var line = _visualizerCollection[EmitterCollection[i]];
+			var line = _visualizerCollection[emitter.GetInstanceID()];
 			if (state == ActionState.Push)
 			{
 				line.startColor = Color.red;
@@ -91,11 +92,11 @@ public class Player : MonoBehaviour
 				line.startColor = Color.green;
 				line.endColor = Color.green;
 			}
-				line.SetPositions(new Vector3[] { EmitterCollection[i].transform.position, transform.position });
+				line.SetPositions(new Vector3[] { emitter.transform.position, transform.position });
 		}
 	}
 
-	private Dictionary<Emitter, LineRenderer> _visualizerCollection = new Dictionary<Emitter, LineRenderer>();
+	private Dictionary<int, LineRenderer> _visualizerCollection = new Dictionary<int, LineRenderer>();
 }
 
 static public class CustomExtensions
