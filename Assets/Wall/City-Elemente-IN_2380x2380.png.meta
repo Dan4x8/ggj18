@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7e767d3a8ab090c4a9efe1ec67245184
-timeCreated: 1517088838
+timeCreated: 1517094607
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -27,6 +27,12 @@ TextureImporter:
     21300040: City-Elemente-IN_2380x2380_20
     21300042: City-Elemente-IN_2380x2380_21
     21300044: City-Elemente-IN_2380x2380_22
+    21300046: City-Elemente-IN_2380x2380_23
+    21300048: City-Elemente-IN_2380x2380_24
+    21300050: City-Elemente-IN_2380x2380_25
+    21300052: City-Elemente-IN_2380x2380_26
+    21300054: City-Elemente-IN_2380x2380_27
+    21300056: City-Elemente-IN_2380x2380_28
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -471,7 +477,7 @@ TextureImporter:
         width: 335
         height: 323
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -490,7 +496,7 @@ TextureImporter:
         width: 204
         height: 266
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -508,7 +514,7 @@ TextureImporter:
         width: 227
         height: 184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -526,7 +532,7 @@ TextureImporter:
         width: 493
         height: 244
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -544,10 +550,122 @@ TextureImporter:
         width: 445
         height: 287
       alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -222.5, y: 143.5}
+        - {x: -222.5, y: -143.5}
+        - {x: 222.5, y: -143.5}
+        - {x: 222.5, y: 143.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 755
+        width: 641
+        height: 1005
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -320.5, y: 502.5}
+        - {x: -320.5, y: -502.40234}
+        - {x: 163.85742, y: -502.40234}
+        - {x: 165.01953, y: 502.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_24
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1739
+        width: 951
+        height: 621
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -475.5, y: 310.5}
+        - {x: -475.5, y: -155.81926}
+        - {x: 475.5, y: -152.33293}
+        - {x: 475.5, y: 310.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_25
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 961
+        width: 794
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -85.113304, y: 285}
+        - {x: -90.92385, y: -284.78128}
+        - {x: 397, y: -284.78128}
+        - {x: 397, y: 285}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_26
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 895
+        width: 762
+        height: 261
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -163.2879, y: -130.5}
+        - {x: -164.35779, y: 130.5}
+        - {x: -380.87595, y: 130.5}
+        - {x: -380.87595, y: -130.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_27
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 729
+        width: 503
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -251.29881, y: 221.5}
+        - {x: -251.29881, y: -221.5}
+        - {x: -81.286316, y: -221.5}
+        - {x: -77.11148, y: 221.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_28
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 821
+        width: 422
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -36.785187, y: 77.5}
+        - {x: -35.623077, y: -77.31056}
+        - {x: 211, y: -77.31056}
+        - {x: 211, y: 77.5}
       tessellationDetail: 0
     outline: []
     physicsShape: []
