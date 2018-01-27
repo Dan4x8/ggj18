@@ -26,6 +26,12 @@ public class Emitter : MonoBehaviour {
     {
         other.gameObject.GetComponent<Player>().UnregisterEmitter(this);
     }
+
+	private void OnDrawGizmos()
+	{
+		Gizmos.DrawWireSphere(transform.position, .5f);
+		Gizmos.DrawWireSphere(transform.position, GetComponent<AudioSource>().maxDistance);
+	}
 }
 
 public enum EmitterState { Inactive = 0, Push = -1, Pull = 1 };
