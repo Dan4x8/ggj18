@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Wall
+    uniqueID: 3742322965
+    locked: 0
+  - name: Transmitter
+    uniqueID: 569860347
+    locked: 0
+  - name: Player
+    uniqueID: 2748773669
+    locked: 0
