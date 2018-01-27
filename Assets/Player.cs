@@ -23,11 +23,16 @@ public class Player : MonoBehaviour
 	{
 		if (!EmitterCollection.Contains(sender))
 			EmitterCollection.Add(sender);
+		if (!_visualizerCollection.ContainsKey(sender))
+			_visualizerCollection.Add(sender, Instantiate(VisualizerTemplate));
 	}
 
 	public void UnregisterEmitter(Emitter sender)
 	{
 		EmitterCollection.Remove(sender);
+		var clr = _visualizerCollection[sender].gameObject;
+		_visualizerCollection.Remove(sender);
+		Destroy(clr);
 	}
 
 	public void Move()
@@ -43,11 +48,11 @@ public class Player : MonoBehaviour
 
 		foreach (var emitter in EmitterCollection)
 		{
-			var channel = emitter.CurrentKey;
-			var clip = emitter.RadioChannels[channel];
-
 			if (emitter.State == EmitterState.Inactive)
 				continue;
+
+			var channel = emitter.CurrentKey;
+			var clip = emitter.RadioChannels[channel];
 
 			var dx = (emitter.transform.position - transform.position);
 			r += (dx / dx.normalized.sqrMagnitude).Multiply((int)AudioClipBehaviourMatching.Find(p=> p.AudioClip == clip).ActionState);
@@ -60,8 +65,25 @@ public class Player : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+		VisualizeAction();
 		Move();
 	}
+
+	public LineRenderer VisualizerTemplate;
+
+	private void VisualizeAction()
+	{
+		for(int i = 0; i < EmitterCollection.Count; i++)
+		{
+			if (EmitterCollection[i].State == EmitterState.Inactive)
+				continue;
+
+			var line = _visualizerCollection[EmitterCollection[i]];
+			line.SetPositions(new Vector3[] { EmitterCollection[i].transform.position, transform.position });
+		}
+	}
+
+	private Dictionary<Emitter, LineRenderer> _visualizerCollection = new Dictionary<Emitter, LineRenderer>();
 }
 
 static public class CustomExtensions
