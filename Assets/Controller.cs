@@ -22,7 +22,7 @@ public class Controller : MonoBehaviour {
             if (hit.collider != null)
             {
                 Debug.Log(hit.transform.name);
-                hit.collider.GetComponent<EmitterClickBehavior>().Click();
+                hit.collider.GetComponent<ClickBehavior>().Click();
             }
         }
 	}
