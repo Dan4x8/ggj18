@@ -3792,7 +3792,7 @@ Prefab:
     - target: {fileID: 58001558938693736, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: m_Radius
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 82076749675267552, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
@@ -3802,7 +3802,7 @@ Prefab:
     - target: {fileID: 82076749675267552, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: MaxDistance
-      value: 16
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
