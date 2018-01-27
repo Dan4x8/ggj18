@@ -265,7 +265,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fd273a31590d7654bbbb16ee8812c262, type: 3}
   - {fileID: 8300000, guid: ece6f12f6c435b34e9f00ce517202534, type: 3}
   CurrentKey: 1
-  State: -1
+  State: 255
 --- !u!114 &114447651652060076
 MonoBehaviour:
   m_ObjectHideFlags: 1

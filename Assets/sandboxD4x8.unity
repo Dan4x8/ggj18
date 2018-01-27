@@ -271,11 +271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee29951f36d9a941af6053d15f32d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioClipBehaviourMatching:
-  - AudioClip: {fileID: 8300000, guid: fd273a31590d7654bbbb16ee8812c262, type: 3}
-    EmitterState: -1
-  - AudioClip: {fileID: 8300000, guid: ece6f12f6c435b34e9f00ce517202534, type: 3}
-    EmitterState: 1
 --- !u!4 &304379142
 Transform:
   m_ObjectHideFlags: 0
@@ -326,11 +321,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4771859778564746, guid: 814db487e40a63a49b97dfe0ad92ff2c, type: 2}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 81255099064553794, guid: 814db487e40a63a49b97dfe0ad92ff2c,
-        type: 2}
-      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -97,6 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cc7943bdfa8a1429e21b2103b9e90e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AudioClipBehaviourMatching:
+  - AudioClip: {fileID: 8300000, guid: fd273a31590d7654bbbb16ee8812c262, type: 3}
+    ActionState: -1
+  - AudioClip: {fileID: 8300000, guid: ece6f12f6c435b34e9f00ce517202534, type: 3}
+    ActionState: 1
   Speed: 0.05
 --- !u!212 &212808919737321912
 SpriteRenderer:

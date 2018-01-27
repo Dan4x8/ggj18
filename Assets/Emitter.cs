@@ -8,12 +8,19 @@ public class Emitter : MonoBehaviour
 {
 	public List<AudioClip> RadioChannels;
 	public int CurrentKey = 0;
+	
+	public EmitterState State = EmitterState.Active;
 
-    public EmitterState State = EmitterState.Inactive;
-
-	public void ChangeState(EmitterState s)
+	public void ChangeState()
     {
-        State = s;
+		var ctrl = FindObjectOfType<Controller>();
+
+		var clip = RadioChannels.Cycle(1, CurrentKey);
+		CurrentKey = RadioChannels.IndexOf(clip);
+		
+		var audio = GetComponent<AudioSource>();
+		audio.clip = clip;
+		audio.Play();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -35,4 +42,5 @@ public class Emitter : MonoBehaviour
 	}
 }
 
-public enum EmitterState { Inactive = 0, Push = -1, Pull = 1 };
+public enum ActionState { Push = -1, Pull = 1 };
+public enum EmitterState { Active = 1, Inactive = 0};

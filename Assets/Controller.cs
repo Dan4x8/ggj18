@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-	public List<ClipBehaviourPair> AudioClipBehaviourMatching;
-
 	void Update () {
 		if (Input.GetMouseButtonDown(0))
         {
@@ -19,11 +17,4 @@ public class Controller : MonoBehaviour
             }
         }
 	}
-}
-
-[System.Serializable]
-public struct ClipBehaviourPair
-{
-	public AudioClip AudioClip;
-	public EmitterState EmitterState;
 }

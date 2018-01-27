@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+	public List<ClipBehaviourPair> AudioClipBehaviourMatching;
+
 	public float Speed = 1.0f;
 
 	private List<Emitter> _emitterCollection;
@@ -37,14 +39,18 @@ public class Player : MonoBehaviour
 	private Vector3 CalculateDirection()
 	{
 		var r = Vector3.zero;
+		
 
-		foreach(var emitter in EmitterCollection)
+		foreach (var emitter in EmitterCollection)
 		{
-			if (!((emitter.State == EmitterState.Push) || (emitter.State == EmitterState.Pull)))
+			var channel = emitter.CurrentKey;
+			var clip = emitter.RadioChannels[channel];
+
+			if (emitter.State == EmitterState.Inactive)
 				continue;
 
 			var dx = (emitter.transform.position - transform.position);
-			r += (dx / dx.normalized.sqrMagnitude).Multiply((int)emitter.State);
+			r += (dx / dx.normalized.sqrMagnitude).Multiply((int)AudioClipBehaviourMatching.Find(p=> p.AudioClip == clip).ActionState);
 		}
 
 		if(r != Vector3.zero)
@@ -84,4 +90,11 @@ static public class CustomExtensions
 		}
 		return en.Current;
 	}
+}
+
+[System.Serializable]
+public struct ClipBehaviourPair
+{
+	public AudioClip AudioClip;
+	public ActionState ActionState;
 }
