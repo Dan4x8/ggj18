@@ -7,14 +7,14 @@ using UnityEngine;
 public class Emitter : MonoBehaviour
 {
 	public List<AudioClip> RadioChannels;
-	public int CurrentKey = 0;
+	public int CurrentChannel = 0;
 	
 	public EmitterState State = EmitterState.Active;
 
 	public void ChangeState()
     {
-		var clip = RadioChannels.Cycle(1, CurrentKey);
-		CurrentKey = RadioChannels.IndexOf(clip);
+		var clip = RadioChannels.Cycle(1, CurrentChannel);
+		CurrentChannel = RadioChannels.IndexOf(clip);
 		
 		var audio = GetComponent<AudioSource>();
 		audio.clip = clip;
@@ -37,6 +37,7 @@ public class Emitter : MonoBehaviour
 		Gizmos.DrawWireSphere(transform.position, GetComponent<AudioSource>().maxDistance);
 		
 		GetComponents<CircleCollider2D>().First(p => p.isTrigger).radius = GetComponent<AudioSource>().maxDistance;
+		GetComponent<AudioSource>().clip = RadioChannels[CurrentChannel];
 	}
 }
 

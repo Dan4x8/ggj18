@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
 			if (emitter.State == EmitterState.Inactive)
 				continue;
 
-			var channel = emitter.CurrentKey;
+			var channel = emitter.CurrentChannel;
 			var clip = emitter.RadioChannels[channel];
 
 			var dx = (emitter.transform.position - transform.position);
