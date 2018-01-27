@@ -24,7 +24,11 @@ public class Player : MonoBehaviour
 		if (!EmitterCollection.Contains(sender))
 			EmitterCollection.Add(sender);
 		if (!_visualizerCollection.ContainsKey(sender))
-			_visualizerCollection.Add(sender, Instantiate(VisualizerTemplate));
+		{
+			var line = Instantiate(VisualizerTemplate) as LineRenderer;
+			_visualizerCollection.Add(sender, line);
+			line.gameObject.SetActive(false);
+		}
 	}
 
 	public void UnregisterEmitter(Emitter sender)
@@ -87,6 +91,10 @@ public class Player : MonoBehaviour
 			line.endColor = Color.green;
 		}
 		line.SetPositions(new Vector3[] { emitter.transform.position, transform.position });
+		if(!line.gameObject.active)
+		{
+			line.gameObject.SetActive(true);
+		}
 	}
 
 	private Dictionary<Emitter, LineRenderer> _visualizerCollection = new Dictionary<Emitter, LineRenderer>();
