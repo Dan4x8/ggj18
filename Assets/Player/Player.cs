@@ -45,9 +45,9 @@ public class Player : MonoBehaviour
 	{
 		var r = Vector3.zero;
 		
-
-		foreach (var emitter in EmitterCollection)
+		for(int i = 0; i< EmitterCollection.Count;i++)
 		{
+			var emitter = EmitterCollection[i] as Emitter;
 			if (emitter.State == EmitterState.Inactive)
 				continue;
 
@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
 			var astate = AudioClipBehaviourMatching.Find(p => p.AudioClip == clip).ActionState;
 			r += (dx / dx.normalized.sqrMagnitude).Multiply((int)astate);
 
-			VisualizeAction(astate);
+			VisualizeAction(astate, emitter);
 		}
 
 		if(r != Vector3.zero)
@@ -73,26 +73,20 @@ public class Player : MonoBehaviour
 
 	public LineRenderer VisualizerTemplate;
 
-	private void VisualizeAction(ActionState state)
+	private void VisualizeAction(ActionState state, Emitter emitter)
 	{
-		for(int i = 0; i < EmitterCollection.Count; i++)
+		var line = _visualizerCollection[emitter];
+		if (state == ActionState.Push)
 		{
-			if (EmitterCollection[i].State == EmitterState.Inactive)
-				continue;
-
-			var line = _visualizerCollection[EmitterCollection[i]];
-			if (state == ActionState.Push)
-			{
-				line.startColor = Color.red;
-				line.endColor = Color.red;
-			}
-			else
-			{
-				line.startColor = Color.green;
-				line.endColor = Color.green;
-			}
-				line.SetPositions(new Vector3[] { EmitterCollection[i].transform.position, transform.position });
+			line.startColor = Color.red;
+			line.endColor = Color.red;
 		}
+		else
+		{
+			line.startColor = Color.green;
+			line.endColor = Color.green;
+		}
+		line.SetPositions(new Vector3[] { emitter.transform.position, transform.position });
 	}
 
 	private Dictionary<Emitter, LineRenderer> _visualizerCollection = new Dictionary<Emitter, LineRenderer>();

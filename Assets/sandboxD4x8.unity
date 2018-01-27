@@ -241,13 +241,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1468435330333018, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1512698370653644, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
+    - target: {fileID: 82076749675267552, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4a8f8c079ec8ce647a583e2f36df6539, type: 3}
+    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
+        type: 2}
+      propertyPath: CurrentChannel
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
