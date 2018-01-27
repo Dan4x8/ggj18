@@ -7,12 +7,11 @@ public class Controller : MonoBehaviour
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero, Mathf.Infinity, (1 <<9));
 			
+			RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero, Mathf.Infinity, (1 <<9));
 			if (hit.collider != null)
-            {
-                hit.collider.GetComponent<ClickBehaviour>().Click();
+			{
+				hit.collider.GetComponent<ClickBehaviour>().Click();
             }
         }
 	}
