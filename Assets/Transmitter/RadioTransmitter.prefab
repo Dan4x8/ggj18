@@ -264,7 +264,7 @@ MonoBehaviour:
   RadioChannels:
   - {fileID: 8300000, guid: 4a8f8c079ec8ce647a583e2f36df6539, type: 3}
   - {fileID: 8300000, guid: 54ccacc397e11ef47ae20d433e1c3f63, type: 3}
-  CurrentKey: 1
+  CurrentChannel: 0
   State: 1
 --- !u!114 &114447651652060076
 MonoBehaviour:
