@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [RequireComponent (typeof(AudioSource))]
@@ -10,7 +11,7 @@ public class Emitter : MonoBehaviour
 
     public EmitterState State = EmitterState.Inactive;
 
-    public void ChangeState(EmitterState s)
+	public void ChangeState(EmitterState s)
     {
         State = s;
     }
@@ -29,6 +30,8 @@ public class Emitter : MonoBehaviour
 	{
 		Gizmos.DrawWireSphere(transform.position, .5f);
 		Gizmos.DrawWireSphere(transform.position, GetComponent<AudioSource>().maxDistance);
+		
+		GetComponents<CircleCollider2D>().First(p => p.isTrigger).radius = GetComponent<AudioSource>().maxDistance;
 	}
 }
 
