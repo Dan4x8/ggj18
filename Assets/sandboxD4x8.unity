@@ -138,7 +138,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 140527658}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!124 &140527660
 Behaviour:
   m_ObjectHideFlags: 0
@@ -266,6 +266,16 @@ Prefab:
       propertyPath: RadioChannels.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: ece6f12f6c435b34e9f00ce517202534, type: 3}
+    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
+        type: 2}
+      propertyPath: RadioChannels.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 874e07c1787bd6342b796b9ba448cba6, type: 3}
+    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
+        type: 2}
+      propertyPath: CurrentKey
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
   m_IsPrefabParent: 0
@@ -352,6 +362,11 @@ Prefab:
     - target: {fileID: 4771859778564746, guid: 814db487e40a63a49b97dfe0ad92ff2c, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 81255099064553794, guid: 814db487e40a63a49b97dfe0ad92ff2c,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 814db487e40a63a49b97dfe0ad92ff2c, type: 2}

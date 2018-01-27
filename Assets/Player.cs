@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
 	}
 }
 
-static public class VectorExtensions
+static public class CustomExtensions
 {
 	static public Vector3 Multiply(this Vector3 v, float multiplicator)
 	{
@@ -68,5 +68,20 @@ static public class VectorExtensions
 	static public Vector2 Multiply(this Vector2 v, float multiplicator)
 	{
 		return new Vector2(v.x * multiplicator, v.y * multiplicator);
+	}
+
+	static public T Cycle<T>(this IEnumerable<T> arr, int pos_amount, int pos)
+	{
+		var en = arr.GetEnumerator();
+		en.MoveNext();
+		for(int i = 0; i < pos_amount + pos; i++)
+		{
+			if (!en.MoveNext())
+			{
+				en.Reset();
+				en.MoveNext();
+			}
+		}
+		return en.Current;
 	}
 }
