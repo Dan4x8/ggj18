@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent (typeof(AudioSource))]
 [RequireComponent(typeof(CircleCollider2D))]
@@ -9,8 +7,7 @@ public class Emitter : MonoBehaviour {
     private float _range;
 
     public EmitterState State = EmitterState.Inactive;
-
-	// Use this for initialization
+	
 	void Start () {
         _range = GetComponent<AudioSource>().maxDistance;
 	}

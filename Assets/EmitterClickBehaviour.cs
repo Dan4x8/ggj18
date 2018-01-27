@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EmitterClickBehaviour : ClickBehaviour
 {
@@ -12,9 +10,11 @@ public class EmitterClickBehaviour : ClickBehaviour
 
 	private EmitterState NextState(EmitterState estate)
 	{
-		var r = (EmitterState)Mathf.Clamp((int)estate + 1f, -1, 1f);
-		Debug.Log(r);
-		return r;
+		var r = (int)estate;
+		r++;
+		if (r > 1)
+			r = -1;
+		return (EmitterState)r;
 	}
 }
 
