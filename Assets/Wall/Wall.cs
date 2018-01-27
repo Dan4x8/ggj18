@@ -18,10 +18,7 @@ public class Wall : MonoBehaviour
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		//Destroy(collision.otherCollider.gameObject);
-		//return;
-
-		var p = collision.otherCollider.GetComponent<Player>();
+		var p = collision.collider.GetComponent<Player>();
 		var off = p.CalculateDirection()*-1f;
 		p.transform.position += off;
 	}
