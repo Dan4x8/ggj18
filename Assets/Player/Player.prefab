@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 212634977236339848}
   - component: {fileID: 114563702880436660}
   - component: {fileID: 50502551045891096}
-  - component: {fileID: 81505726039282478}
   - component: {fileID: 58029475275809394}
   - component: {fileID: 95421958341094972}
   m_Layer: 0
@@ -39,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1721681115624622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4, y: 0.97, z: 0}
+  m_LocalPosition: {x: -18.84, y: 0.0000014305115, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,13 +79,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.6
---- !u!81 &81505726039282478
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1721681115624622}
-  m_Enabled: 1
 --- !u!95 &95421958341094972
 Animator:
   serializedVersion: 3
@@ -138,7 +130,7 @@ MonoBehaviour:
     ActionState: -1
   - AudioClip: {fileID: 8300000, guid: bffbad13e84ffae488485b4fee4cb1eb, type: 3}
     ActionState: -1
-  - AudioClip: {fileID: 8300000, guid: 3cbcf76c5168b494393636b922c5cf5a, type: 3}
+  - AudioClip: {fileID: 8300000, guid: 0edabcea19ba4f045bafd19042604895, type: 3}
     ActionState: -1
   Speed: 0.04
   VisualizerTemplate: {fileID: 120929718099145616, guid: 03a58ff338e30884491bddc014037bc8,

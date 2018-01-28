@@ -2395,7 +2395,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 3cbcf76c5168b494393636b922c5cf5a, type: 3}
+      objectReference: {fileID: 8300000, guid: 0edabcea19ba4f045bafd19042604895, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
   m_IsPrefabParent: 0
@@ -6393,7 +6393,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 3cbcf76c5168b494393636b922c5cf5a, type: 3}
+      objectReference: {fileID: 8300000, guid: 0edabcea19ba4f045bafd19042604895, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
   m_IsPrefabParent: 0
