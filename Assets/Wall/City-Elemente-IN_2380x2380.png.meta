@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7e767d3a8ab090c4a9efe1ec67245184
-timeCreated: 1517094607
+timeCreated: 1517102849
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -33,6 +33,8 @@ TextureImporter:
     21300052: City-Elemente-IN_2380x2380_26
     21300054: City-Elemente-IN_2380x2380_27
     21300056: City-Elemente-IN_2380x2380_28
+    21300058: City-Elemente-IN_2380x2380_29
+    21300060: City-Elemente-IN_2380x2380_30
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -622,7 +624,7 @@ TextureImporter:
         width: 762
         height: 261
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -640,7 +642,7 @@ TextureImporter:
         width: 503
         height: 443
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -658,7 +660,7 @@ TextureImporter:
         width: 422
         height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -666,6 +668,42 @@ TextureImporter:
         - {x: -35.623077, y: -77.31056}
         - {x: 211, y: -77.31056}
         - {x: 211, y: 77.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_29
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 0
+        width: 179
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -89.5, y: 120.859375}
+        - {x: -89.5, y: -364.5}
+        - {x: 89.5, y: -364.5}
+        - {x: 89.5, y: 120.8349}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: City-Elemente-IN_2380x2380_30
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 0
+        width: 193
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -96.5, y: 125.32443}
+        - {x: -96.5, y: -356.5}
+        - {x: 96.5, y: -356.5}
+        - {x: 92.609985, y: 130.15625}
       tessellationDetail: 0
     outline: []
     physicsShape: []
