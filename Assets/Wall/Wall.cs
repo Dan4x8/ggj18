@@ -20,6 +20,6 @@ public class Wall : MonoBehaviour
 	{
 		var p = collision.collider.GetComponent<Player>();
 		var off = p.CalculateDirection()*-1f;
-		p.transform.position += off;
+		p.transform.position += off.normalized;
 	}
 }
