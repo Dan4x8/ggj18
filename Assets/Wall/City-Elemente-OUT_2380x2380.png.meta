@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0233e804e83d74a4b840e48fd11fb56d
-timeCreated: 1517092933
+timeCreated: 1517103408
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -223,8 +223,8 @@ TextureImporter:
       name: City-Elemente-OUT_2380x2380_5
       rect:
         serializedVersion: 2
-        x: 800
-        y: 1621
+        x: 797
+        y: 1624
         width: 326
         height: 538
       alignment: 0
@@ -425,27 +425,19 @@ TextureImporter:
       name: City-Elemente-OUT_2380x2380_16
       rect:
         serializedVersion: 2
-        x: 658
-        y: 1697
-        width: 959
-        height: 473
+        x: 661
+        y: 1585
+        width: 949
+        height: 579
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: -479.5, y: -30.298218}
-        - {x: -479.5, y: -236.5}
-        - {x: 479.5, y: -236.5}
-        - {x: 479.5, y: -33.405396}
-      - - {x: -261.2285, y: 194.39258}
-        - {x: -260.06638, y: 193.23047}
-        - {x: -228.68942, y: 193.23047}
-        - {x: -217.06833, y: 199.04102}
-        - {x: -217.06833, y: 214.14844}
-        - {x: -246.12106, y: 214.14844}
-        - {x: -258.90427, y: 211.82422}
-        - {x: -261.2285, y: 207.17578}
+      - - {x: -474.5, y: 27.358032}
+        - {x: -474.5, y: -289.5}
+        - {x: 474.5, y: -289.5}
+        - {x: 474.5, y: 24.250977}
       tessellationDetail: 0
     - serializedVersion: 2
       name: City-Elemente-OUT_2380x2380_17
@@ -456,7 +448,7 @@ TextureImporter:
         width: 697
         height: 794
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -474,7 +466,7 @@ TextureImporter:
         width: 785
         height: 735
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
@@ -492,7 +484,7 @@ TextureImporter:
         width: 613
         height: 910
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
