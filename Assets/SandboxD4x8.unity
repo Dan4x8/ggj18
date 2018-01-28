@@ -156,7 +156,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: 12b7c5aa7dae0674891441f5a4c3ad3e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -247,6 +247,21 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20844735267911520, guid: 9a829a668646c3842b77991f6181ec5a,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20844735267911520, guid: 9a829a668646c3842b77991f6181ec5a,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.30588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 20844735267911520, guid: 9a829a668646c3842b77991f6181ec5a,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.4627451
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a829a668646c3842b77991f6181ec5a, type: 2}
