@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1721681115624622}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4, y: 0.97, z: 0}
+  m_LocalPosition: {x: -18.84, y: 0.0000014305115, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,6 +120,9 @@ MonoBehaviour:
     ActionState: -1
   - AudioClip: {fileID: 8300000, guid: 03a0d2b2792ffda4f808da9a9d415207, type: 3}
     ActionState: 1
+<<<<<<< HEAD
+  - AudioClip: {fileID: 0}
+=======
   - AudioClip: {fileID: 8300000, guid: 3e70617fd9cdd0347b2c74db99f6d1cf, type: 3}
     ActionState: 1
   - AudioClip: {fileID: 8300000, guid: a5a93beb94458f240b77162444071fe0, type: 3}
@@ -139,6 +142,7 @@ MonoBehaviour:
   - AudioClip: {fileID: 8300000, guid: bffbad13e84ffae488485b4fee4cb1eb, type: 3}
     ActionState: -1
   - AudioClip: {fileID: 8300000, guid: 3cbcf76c5168b494393636b922c5cf5a, type: 3}
+>>>>>>> a7d8b5dc44b1e26005db6d14607b411063825138
     ActionState: -1
   Speed: 0.04
   VisualizerTemplate: {fileID: 120929718099145616, guid: 03a58ff338e30884491bddc014037bc8,
