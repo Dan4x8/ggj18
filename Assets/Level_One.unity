@@ -327,7 +327,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+      objectReference: {fileID: 8300000, guid: e6bdde795411e6043ab270668af1770d, type: 3}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
@@ -1548,7 +1548,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+      objectReference: {fileID: 8300000, guid: e6bdde795411e6043ab270668af1770d, type: 3}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: RadioChannels.Array.data[2]
@@ -1930,7 +1930,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+      objectReference: {fileID: 8300000, guid: 3e70617fd9cdd0347b2c74db99f6d1cf, type: 3}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
@@ -2182,7 +2182,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+      objectReference: {fileID: 8300000, guid: a5a93beb94458f240b77162444071fe0, type: 3}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
@@ -3583,7 +3583,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: e6bdde795411e6043ab270668af1770d, type: 3}
+      objectReference: {fileID: 8300000, guid: 03a0d2b2792ffda4f808da9a9d415207, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
   m_IsPrefabParent: 0
@@ -3971,7 +3971,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+      objectReference: {fileID: 8300000, guid: 3e70617fd9cdd0347b2c74db99f6d1cf, type: 3}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
@@ -5278,7 +5278,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: e6bdde795411e6043ab270668af1770d, type: 3}
+      objectReference: {fileID: 8300000, guid: 03a0d2b2792ffda4f808da9a9d415207, type: 3}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
@@ -6205,7 +6205,7 @@ Prefab:
         type: 2}
       propertyPath: RadioChannels.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+      objectReference: {fileID: 8300000, guid: a5a93beb94458f240b77162444071fe0, type: 3}
     - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
         type: 2}
       propertyPath: RadioChannels.Array.data[0]
