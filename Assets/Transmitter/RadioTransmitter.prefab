@@ -252,8 +252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RadioChannels:
-  - {fileID: 8300000, guid: 4a8f8c079ec8ce647a583e2f36df6539, type: 3}
-  - {fileID: 8300000, guid: 54ccacc397e11ef47ae20d433e1c3f63, type: 3}
+  - {fileID: 8300000, guid: bffbad13e84ffae488485b4fee4cb1eb, type: 3}
+  - {fileID: 8300000, guid: 9463d8128ccee7840ae6875f966e935e, type: 3}
   CurrentChannel: 0
   State: 1
 --- !u!114 &114447651652060076
