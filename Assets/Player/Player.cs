@@ -98,7 +98,8 @@ public class Player : MonoBehaviour
 		}
 		else
 		{
-			var dgreen = new Color(0x00, 0x3E, 0x1A, 0xFF);
+			//var dgreen = new Color(0, 62f/255f, 26f/255f, 1f);
+			var dgreen = Color.green;
 			line.startColor = dgreen;
 			line.endColor = dgreen;
 		}

@@ -319,6 +319,11 @@ Prefab:
       propertyPath: RadioChannels.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: 57ab9f684cc41c34283302109b4bcf25, type: 3}
+    - target: {fileID: 58001558938693736, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
+        type: 2}
+      propertyPath: m_Radius
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
