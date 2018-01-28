@@ -72,7 +72,10 @@ public class Player : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		Move();
+		if (!_frozen)
+		{
+			Move();
+		}
 	}
 
 	public LineRenderer VisualizerTemplate;
@@ -96,6 +99,13 @@ public class Player : MonoBehaviour
 		{
 			line.gameObject.SetActive(true);
 		}
+	}
+
+	private bool _frozen = false;
+
+	public void SetFreeze(bool freeze)
+	{
+		_frozen = freeze;
 	}
 
 	private Dictionary<Emitter, LineRenderer> _visualizerCollection = new Dictionary<Emitter, LineRenderer>();

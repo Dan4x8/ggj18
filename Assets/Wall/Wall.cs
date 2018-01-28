@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class Wall : MonoBehaviour
@@ -21,5 +22,13 @@ public class Wall : MonoBehaviour
 		var p = collision.collider.GetComponent<Player>();
 		var off = p.CalculateDirection()*-1.5f;
 		p.transform.position += off.normalized;
+		StartCoroutine(FreezePlayerForSeconds(p, .5f));
+	}
+
+	IEnumerator FreezePlayerForSeconds(Player p, float time)
+	{
+		p.SetFreeze(true);
+		yield return new WaitForSeconds(time);
+		p.SetFreeze(false);
 	}
 }
