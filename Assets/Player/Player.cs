@@ -43,16 +43,21 @@ public class Player : MonoBehaviour
 	{
 		Vector3 target = CalculateDirection().Multiply(Speed);
 		transform.position = Vector3.MoveTowards(transform.position,transform.position+target,Speed);
-		
-		var bodyUp = transform.right;
-		transform.rotation = Quaternion.FromToRotation(bodyUp, target) * transform.rotation;
+
+		if (EmitterCollection.Count != 2)
+		{
+			var bodyUp = transform.right;
+			transform.rotation = Quaternion.FromToRotation(bodyUp, target) * transform.rotation;
+		}
 	}
 
 	public Vector3 CalculateDirection()
 	{
 		var r = Vector3.zero;
+
+		var ecount = EmitterCollection.Count;
 		
-		for(int i = 0; i< EmitterCollection.Count;i++)
+		for(int i = 0; i< ecount;i++)
 		{
 			var emitter = EmitterCollection[i] as Emitter;
 			if (emitter.State == EmitterState.Inactive)
