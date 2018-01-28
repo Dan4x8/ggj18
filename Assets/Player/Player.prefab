@@ -120,7 +120,25 @@ MonoBehaviour:
     ActionState: -1
   - AudioClip: {fileID: 8300000, guid: 54ccacc397e11ef47ae20d433e1c3f63, type: 3}
     ActionState: 1
-  - AudioClip: {fileID: 0}
+  - AudioClip: {fileID: 8300000, guid: 3e70617fd9cdd0347b2c74db99f6d1cf, type: 3}
+    ActionState: 1
+  - AudioClip: {fileID: 8300000, guid: a5a93beb94458f240b77162444071fe0, type: 3}
+    ActionState: 1
+  - AudioClip: {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+    ActionState: 1
+  - AudioClip: {fileID: 8300000, guid: 9463d8128ccee7840ae6875f966e935e, type: 3}
+    ActionState: 1
+  - AudioClip: {fileID: 8300000, guid: e6bdde795411e6043ab270668af1770d, type: 3}
+    ActionState: 1
+  - AudioClip: {fileID: 8300000, guid: aededbe320f5df64595ca6fdbb6b420b, type: 3}
+    ActionState: -1
+  - AudioClip: {fileID: 8300000, guid: 57ab9f684cc41c34283302109b4bcf25, type: 3}
+    ActionState: -1
+  - AudioClip: {fileID: 8300000, guid: 39bfe5c96d4f9c24eacd8176f59c9ba1, type: 3}
+    ActionState: -1
+  - AudioClip: {fileID: 8300000, guid: bffbad13e84ffae488485b4fee4cb1eb, type: 3}
+    ActionState: -1
+  - AudioClip: {fileID: 8300000, guid: 3cbcf76c5168b494393636b922c5cf5a, type: 3}
     ActionState: -1
   Speed: 0.04
   VisualizerTemplate: {fileID: 120929718099145616, guid: 03a58ff338e30884491bddc014037bc8,
