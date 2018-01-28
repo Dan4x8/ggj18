@@ -120,6 +120,8 @@ MonoBehaviour:
     ActionState: -1
   - AudioClip: {fileID: 8300000, guid: 54ccacc397e11ef47ae20d433e1c3f63, type: 3}
     ActionState: 1
+  - AudioClip: {fileID: 0}
+    ActionState: -1
   Speed: 0.04
   VisualizerTemplate: {fileID: 120929718099145616, guid: 03a58ff338e30884491bddc014037bc8,
     type: 2}
