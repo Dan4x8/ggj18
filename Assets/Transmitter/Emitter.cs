@@ -15,18 +15,15 @@ public class Emitter : MonoBehaviour
 
 	public void ChangeState()
     {
+		if (!_inRange)
+			return;
+
 		var old = RadioChannels[CurrentChannel];
 		var clip = RadioChannels.Cycle(1, CurrentChannel);
 
 		CurrentChannel = RadioChannels.IndexOf(clip);
 
 		AudioStation.ChangeChannel(GetComponent<Emitter>(),old);
-		
-		/*
-		var audio = GetComponent<AudioSource>();
-		audio.clip = clip;
-		audio.Play();
-		*/
     }
 
 	private void Start()
@@ -34,14 +31,18 @@ public class Emitter : MonoBehaviour
 		AudioStation = FindObjectOfType<AudioStation>();
 	}
 
+	private bool _inRange = false;
+
 	private void OnTriggerEnter2D(Collider2D other)
     {
+		_inRange = true;
         other.gameObject.GetComponent<Player>().RegisterEmitter(this);
 		AudioStation.RegisterEmitter(GetComponent<Emitter>());
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
+		_inRange = false;
         other.gameObject.GetComponent<Player>().UnregisterEmitter(this);
 		AudioStation.UnregisterEmitter(GetComponent<Emitter>());
 	}

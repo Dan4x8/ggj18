@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4120202188624922}
   - component: {fileID: 114201477034195884}
   - component: {fileID: 58001558938693736}
-  - component: {fileID: 82076749675267552}
   - component: {fileID: 50461506708804540}
   - component: {fileID: 58019203875188488}
   m_Layer: 8
@@ -143,86 +142,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.9
---- !u!82 &82076749675267552
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1468435330333018}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0a972cb208ec6c34ba9b3351cf0ba26f, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 0.5
-  MaxDistance: 3
-  Pan2D: 0
-  rolloffMode: 1
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!95 &95716357834821642
 Animator:
   serializedVersion: 3
@@ -252,10 +171,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RadioChannels:
-  - {fileID: 8300000, guid: bffbad13e84ffae488485b4fee4cb1eb, type: 3}
-  - {fileID: 8300000, guid: 9463d8128ccee7840ae6875f966e935e, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   CurrentChannel: 0
   State: 1
+  AudioStation: {fileID: 0}
 --- !u!114 &114447651652060076
 MonoBehaviour:
   m_ObjectHideFlags: 1

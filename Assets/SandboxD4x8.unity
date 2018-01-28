@@ -295,6 +295,16 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 4a8f8c079ec8ce647a583e2f36df6539, type: 3}
+    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
+        type: 2}
+      propertyPath: RadioChannels.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: e6bdde795411e6043ab270668af1770d, type: 3}
+    - target: {fileID: 114201477034195884, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8,
+        type: 2}
+      propertyPath: RadioChannels.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 57ab9f684cc41c34283302109b4bcf25, type: 3}
     m_RemovedComponents:
     - {fileID: 82076749675267552, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 6ec4ea3eb1ee85848b2e33225d4a0cb8, type: 2}
@@ -340,13 +350,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioClips:
-  - {fileID: 8300000, guid: 4a8f8c079ec8ce647a583e2f36df6539, type: 3}
-  - {fileID: 8300000, guid: 0a972cb208ec6c34ba9b3351cf0ba26f, type: 3}
-  - {fileID: 8300000, guid: b3003d34d21d9534e9b6e71497f32138, type: 3}
-  - {fileID: 8300000, guid: 980dacf9ddfd4784982ef28d28bf1c27, type: 3}
-  - {fileID: 8300000, guid: 361603850b8da21429d87422ae041b9b, type: 3}
-  - {fileID: 8300000, guid: 921a95918e4ebd74f9f94152fd553ae1, type: 3}
-  - {fileID: 8300000, guid: 54ccacc397e11ef47ae20d433e1c3f63, type: 3}
+  - {fileID: 8300000, guid: 3902fad450a809349a2e459fd2c24871, type: 3}
+  - {fileID: 8300000, guid: 03a0d2b2792ffda4f808da9a9d415207, type: 3}
+  - {fileID: 8300000, guid: 3e70617fd9cdd0347b2c74db99f6d1cf, type: 3}
+  - {fileID: 8300000, guid: a5a93beb94458f240b77162444071fe0, type: 3}
+  - {fileID: 8300000, guid: d6b8a36a0faa09c4abd2d956216dbae9, type: 3}
+  - {fileID: 8300000, guid: 9463d8128ccee7840ae6875f966e935e, type: 3}
+  - {fileID: 8300000, guid: e6bdde795411e6043ab270668af1770d, type: 3}
+  - {fileID: 8300000, guid: aededbe320f5df64595ca6fdbb6b420b, type: 3}
+  - {fileID: 8300000, guid: 57ab9f684cc41c34283302109b4bcf25, type: 3}
+  - {fileID: 8300000, guid: 39bfe5c96d4f9c24eacd8176f59c9ba1, type: 3}
+  - {fileID: 8300000, guid: bffbad13e84ffae488485b4fee4cb1eb, type: 3}
+  - {fileID: 8300000, guid: 8481fef5c33651444b7e6308f7acf3df, type: 3}
+  - {fileID: 8300000, guid: 3cbcf76c5168b494393636b922c5cf5a, type: 3}
 --- !u!1001 &1467017048
 Prefab:
   m_ObjectHideFlags: 0
