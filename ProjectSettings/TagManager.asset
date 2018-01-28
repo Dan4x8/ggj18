@@ -50,3 +50,6 @@ TagManager:
   - name: Player
     uniqueID: 2748773669
     locked: 0
+  - name: ClubVisual
+    uniqueID: 1158975155
+    locked: 0
