@@ -43,6 +43,9 @@ public class Player : MonoBehaviour
 	{
 		Vector3 target = CalculateDirection().Multiply(Speed);
 		transform.position = Vector3.MoveTowards(transform.position,transform.position+target,Speed);
+		
+		var bodyUp = transform.right;
+		transform.rotation = Quaternion.FromToRotation(bodyUp, target) * transform.rotation;
 	}
 
 	public Vector3 CalculateDirection()
